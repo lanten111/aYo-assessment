@@ -26,7 +26,7 @@ public class ConventionImplementation implements ConventionInterface {
 
     @Override
     public double fahrenheitToCelcius(double fahrenheit) {
-        //convert fahrenheight to celcius
+        //convert fahrenheit to celcius
         return  0.555555556 * (fahrenheit - ConversionConstant.CELCIUS_FAHRENHEIT_CONSTANT);
     }
 

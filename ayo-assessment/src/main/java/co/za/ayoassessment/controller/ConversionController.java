@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/convert")
+@RequestMapping("/convention")
 public class ConversionController {
     //controller for convention between imperial and metric
     @Autowired
@@ -56,7 +56,7 @@ public class ConversionController {
         return ResponseEntity.ok(conventionInterface.poundsToKilograms(pounds) + Symbol.kg.name());
     }
 
-    @GetMapping("/gallons-to-Liters")
+    @GetMapping("/gallons-to-liters")
     public ResponseEntity<String> gallonsToLiters(@RequestParam double gallons){
         return ResponseEntity.ok(conventionInterface.gallonsToLiters(gallons) + Symbol.L.name());
     }
