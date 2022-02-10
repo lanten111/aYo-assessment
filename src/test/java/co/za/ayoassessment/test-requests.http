@@ -1,0 +1,49 @@
+###
+GET http://localhost:8080/convention/miters-to-feet?miters=10
+
+<> 2022-02-10T205517.200.txt
+
+###
+GET http://localhost:8080/convention/feet-to-miter?feet=10
+
+<> 2022-02-10T205537.200.txt
+
+###
+GET http://localhost:8080/convention/celcius-to-fahrenheit?celcius=10
+
+<> 2022-02-10T205553.200.txt
+
+###
+GET http://localhost:8080/convention/fahrenheit-to-celcius?fahrenheit=10
+
+<> 2022-02-10T205611.200.txt
+
+###
+GET http://localhost:8080/convention/psi-to-bar?psi=10
+
+<> 2022-02-10T205624.200.txt
+
+###
+GET http://localhost:8080/convention/bar-to-psi?bar=10
+
+<> 2022-02-10T205637.200.txt
+
+###
+GET http://localhost:8080/convention/kilogram-to-pounds?kilogram=10
+
+<> 2022-02-10T205709.200.txt
+
+###
+GET http://localhost:8080/convention/pounds-to-kilogram?pounds=10
+
+<> 2022-02-10T205706.200.txt
+
+###
+GET http://localhost:8080/convention/gallons-to-liters?gallons=10
+
+<> 2022-02-10T205721.200.txt
+
+###
+GET http://localhost:8080/convention/liters_to_gallons?liters=10
+
+<> 2022-02-10T205747.200.txt
