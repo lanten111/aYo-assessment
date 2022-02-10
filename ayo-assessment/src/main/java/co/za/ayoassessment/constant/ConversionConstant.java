@@ -2,6 +2,7 @@ package co.za.ayoassessment.constant;
 
 public class ConversionConstant {
 
+    //constant values for convention
     public static double FEET_MITER_CONSTANT =  3.280839895;
     public static double CELCIUS_FAHRENHEIT_CONSTANT = 32;
     public static double BAR_PSI_CONSTANT = 14.503773773;

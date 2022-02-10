@@ -1,6 +1,7 @@
 package co.za.ayoassessment.constant;
 
 public enum Symbol {
+    //metric and imperial symbols
     kg,
     lbs,
     m,
