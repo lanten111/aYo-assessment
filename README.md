@@ -46,7 +46,7 @@ aYo assessment repository
        GET http://localhost:8080/convention/liters_to_gallons?liters=?
      ````
    
-3. # How to Run the project
+2# How to Run the project
 
 - To run the project, use  mvn spring-boot:run this will build the project then start up
 - Client will be Postman or if on Intellij, there is `test-requests.http` file under `/test` with all endpoint and data ready
@@ -56,11 +56,11 @@ aYo assessment repository
   it will create jar file then create docker image with `docker build -t springio/gs-spring-boot-docker .`
 
 
-4. # Test
+3# Test
 - Added test to test all service layer on all convention
 - To run th tests, use ` maven test`
     
-6. # Tech used
+4# Tech used
 - Maven
 - Springboot
 - GitHub
